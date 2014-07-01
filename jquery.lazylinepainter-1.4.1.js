@@ -66,8 +66,8 @@
 					// Setup Rapheal
 					var $s = $this.attr("id"); // Requires Id
 					var paper = new Raphael($s, $w, $h);
-                    paper.setViewBox(0, 0, $w, $h, true);
-                    paper.canvas.setAttribute('preserveAspectRatio', 'none');
+                    paper.setViewBox(0, 0, 1440, 181, true);
+                    paper.canvas.setAttribute('preserveAspectRatio', 'xMidYMid meet');
 
 
 					/*
